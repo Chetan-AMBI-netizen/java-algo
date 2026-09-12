@@ -1,4 +1,4 @@
-public class Hello{
+/*public class Hello{
     public static void main(String[] args) {
         int x;
         for(x=1; x<=10; x++)
@@ -15,3 +15,31 @@ public class Hello{
 
     }
 }
+    
+   public class Hello {
+   
+    public static void main(String[] args) {
+        int x;
+        for(x=0; x<10; x++){
+            System.out.println("this is :-" +x);
+        }
+    }
+   }
+    */
+   public class Hello {
+    public static void main(String[] args) {
+        int x , y;
+        y=20;
+        for(x=1; x<10; x++){
+            System.out.println("this is x:-" +x);
+        
+        
+        y=y-2;
+        System.out.println("this is y:-"+y);
+        }
+
+        
+    }
+    
+    
+   }
