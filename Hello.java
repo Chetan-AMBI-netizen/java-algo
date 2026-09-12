@@ -25,7 +25,7 @@
         }
     }
    }
-    */
+    
    public class Hello {
     public static void main(String[] args) {
         int x , y;
@@ -42,4 +42,19 @@
     }
     
     
+   }
+    */
+   public class Hello {
+   
+    public static void main(String[] args) {
+        int x;
+        for(x=1; x<=100; x++){
+            if(x%25==0){
+                System.out.println("this is the tables of 2:"+x);
+            }
+            else{
+                System.out.println("you are week bro!");
+            }
+        }
+    }
    }
