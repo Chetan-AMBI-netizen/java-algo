@@ -43,7 +43,7 @@
     
     
    }
-    */
+    
    public class Hello {
    
     public static void main(String[] args) {
@@ -57,4 +57,36 @@
             }
         }
     }
-   }
+   }*/
+
+class Hello {
+
+    public static void main(String[] args) {
+        int x = 10;
+        char A = 'x';
+        byte s = 2;
+        short c = 29;
+        long v = 910886;
+        float b = 2;
+        double n = 3333.999;
+        boolean bool = true;
+
+        System.out.println("this is int:-"+x);
+         System.out.println("this is char:-"+A);
+          System.out.println("this is byte:-"+s);
+           System.out.println("this is short:-"+c);
+            System.out.println("this is long:-"+v);
+             System.out.println("this is float:-"+b);
+              System.out.println("this is double:-"+n);
+               System.out.println("this is boolean:-"+bool);
+
+
+
+
+
+
+
+
+
+    }
+}
