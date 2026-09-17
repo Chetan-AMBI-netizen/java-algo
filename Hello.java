@@ -57,7 +57,7 @@
             }
         }
     }
-   }*/
+   }
 
 class Hello {
 
@@ -90,3 +90,24 @@ class Hello {
 
     }
 }
+    */
+   /**
+    * Hello
+    */
+   public class Hello {
+   
+    public static void main(String[] args) {
+      
+      //Airthematic operators//
+      int num1 =20;
+     // num1++; //postincremented value is 21//
+     // ++num1; // preincremented value is 22//
+      //num1--; // post decremented value is 19//
+      // --num1; //  pre decremented value is 19//
+     //int result = num1++; //  value is fetched but incremented value is 20//
+     int result = ++num1;
+        System.out.println(result);
+
+        
+    }
+   }
