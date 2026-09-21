@@ -1,6 +1,6 @@
 public class Loops {
 public static void main(String[] args) {
-    int i=2;
+   // int i=2;
    /*  while(i<10){
 
         System.out.println("hi " + i);
@@ -15,11 +15,21 @@ public static void main(String[] args) {
         System.out.println("bye" + j);
     }
     System.out.println("good bye" + i);
-    */
+     //DO-WHILE LOOPS
    do{
     System.out.println("hello guys "  +  i);
     i++;
    }while(i<=9);
+   */
+  for(int i=1; i<=6; i++)
+  {
+    System.out.println(" Day "  +   i);
+   for(int j=1; j<=9; j++)
+   {
+    System.out.println(" "  +  (j+8) + " - "  +(j+9));
+   }
+
+  }
 }
     
     
